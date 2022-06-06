@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfersonTesting.EfersonSilva", "EfersonTesting.EfersonSilva\EfersonTesting.EfersonSilva.csproj", "{234722BD-CD77-4640-9CDD-2B1502D836DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfersonTesting.EfersonSilva_Tests", "EfersonTesting.EfersonSilva_Tests\EfersonTesting.EfersonSilva_Tests.csproj", "{DFBA1288-EE5D-463E-A2D0-E6639E5252CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{234722BD-CD77-4640-9CDD-2B1502D836DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234722BD-CD77-4640-9CDD-2B1502D836DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{234722BD-CD77-4640-9CDD-2B1502D836DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234722BD-CD77-4640-9CDD-2B1502D836DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFBA1288-EE5D-463E-A2D0-E6639E5252CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBA1288-EE5D-463E-A2D0-E6639E5252CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBA1288-EE5D-463E-A2D0-E6639E5252CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBA1288-EE5D-463E-A2D0-E6639E5252CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24AAEFEE-DEC8-4996-B8F5-1CF072C543D4}
+	EndGlobalSection
+EndGlobal
