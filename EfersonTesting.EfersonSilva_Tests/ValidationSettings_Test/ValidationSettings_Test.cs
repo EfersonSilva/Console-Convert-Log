@@ -18,13 +18,6 @@ namespace EfersonTesting.EfersonSilva_Tests.ValidationSettings_Test
         }
 
         [Fact]
-        public void ValidationSettings_Constructor()
-        {
-            Assert.Equal(new Exception("logger").Message, Assert.Throws<Exception>(() => new ValidationSettings(null, null)).Message);
-            Assert.Equal(new Exception("appSettingValue").Message, Assert.Throws<CustomException>(() => new ValidationSettings(_loggerMock.Object, new Mock<IOptions<AppSettings>>().Object)).Message);
-        }
-
-        [Fact]
         public void ValidationSettings_Sucess()
         {
             //Arrange
