@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\EfersonTesting.EfersonSilva.AnalysisLogs\\EfersonTesting.EfersonSilva_Tests\\EfersonTesting.EfersonSilva_Tests.csproj": {}
+    "C:\\Users\\efers\\Documents\\console-log\\Console-Convert-Log\\EfersonTesting.EfersonSilva_Tests\\EfersonTesting.EfersonSilva_Tests.csproj": {}
   },
   "projects": {
-    "C:\\Git\\EfersonTesting.EfersonSilva.AnalysisLogs\\EfersonTesting.EfersonSilva\\EfersonTesting.EfersonSilva.csproj": {
+    "C:\\Users\\efers\\Documents\\console-log\\Console-Convert-Log\\EfersonTesting.EfersonSilva\\EfersonTesting.EfersonSilva.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\EfersonTesting.EfersonSilva.AnalysisLogs\\EfersonTesting.EfersonSilva\\EfersonTesting.EfersonSilva.csproj",
+        "projectUniqueName": "C:\\Users\\efers\\Documents\\console-log\\Console-Convert-Log\\EfersonTesting.EfersonSilva\\EfersonTesting.EfersonSilva.csproj",
         "projectName": "EfersonTesting.EfersonSilva",
-        "projectPath": "C:\\Git\\EfersonTesting.EfersonSilva.AnalysisLogs\\EfersonTesting.EfersonSilva\\EfersonTesting.EfersonSilva.csproj",
-        "packagesPath": "C:\\Users\\eferson\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\EfersonTesting.EfersonSilva.AnalysisLogs\\EfersonTesting.EfersonSilva\\obj\\",
+        "projectPath": "C:\\Users\\efers\\Documents\\console-log\\Console-Convert-Log\\EfersonTesting.EfersonSilva\\EfersonTesting.EfersonSilva.csproj",
+        "packagesPath": "C:\\Users\\efers\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\efers\\Documents\\console-log\\Console-Convert-Log\\EfersonTesting.EfersonSilva\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eferson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\efers\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,7 +51,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -60,21 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Git\\EfersonTesting.EfersonSilva.AnalysisLogs\\EfersonTesting.EfersonSilva_Tests\\EfersonTesting.EfersonSilva_Tests.csproj": {
+    "C:\\Users\\efers\\Documents\\console-log\\Console-Convert-Log\\EfersonTesting.EfersonSilva_Tests\\EfersonTesting.EfersonSilva_Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\EfersonTesting.EfersonSilva.AnalysisLogs\\EfersonTesting.EfersonSilva_Tests\\EfersonTesting.EfersonSilva_Tests.csproj",
+        "projectUniqueName": "C:\\Users\\efers\\Documents\\console-log\\Console-Convert-Log\\EfersonTesting.EfersonSilva_Tests\\EfersonTesting.EfersonSilva_Tests.csproj",
         "projectName": "EfersonTesting.EfersonSilva_Tests",
-        "projectPath": "C:\\Git\\EfersonTesting.EfersonSilva.AnalysisLogs\\EfersonTesting.EfersonSilva_Tests\\EfersonTesting.EfersonSilva_Tests.csproj",
-        "packagesPath": "C:\\Users\\eferson\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\EfersonTesting.EfersonSilva.AnalysisLogs\\EfersonTesting.EfersonSilva_Tests\\obj\\",
+        "projectPath": "C:\\Users\\efers\\Documents\\console-log\\Console-Convert-Log\\EfersonTesting.EfersonSilva_Tests\\EfersonTesting.EfersonSilva_Tests.csproj",
+        "packagesPath": "C:\\Users\\efers\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\efers\\Documents\\console-log\\Console-Convert-Log\\EfersonTesting.EfersonSilva_Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eferson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\efers\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Git\\EfersonTesting.EfersonSilva.AnalysisLogs\\EfersonTesting.EfersonSilva\\EfersonTesting.EfersonSilva.csproj": {
-                "projectPath": "C:\\Git\\EfersonTesting.EfersonSilva.AnalysisLogs\\EfersonTesting.EfersonSilva\\EfersonTesting.EfersonSilva.csproj"
+              "C:\\Users\\efers\\Documents\\console-log\\Console-Convert-Log\\EfersonTesting.EfersonSilva\\EfersonTesting.EfersonSilva.csproj": {
+                "projectPath": "C:\\Users\\efers\\Documents\\console-log\\Console-Convert-Log\\EfersonTesting.EfersonSilva\\EfersonTesting.EfersonSilva.csproj"
               }
             }
           }
@@ -155,7 +156,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -164,7 +166,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -121,7 +121,7 @@ namespace EfersonTesting.EfersonSilva.Domain
                     if (string.IsNullOrEmpty(path))
                         _logger.LogError("Path is empty!");
 
-                    (linkLog, parameter, filePath) = FormatPathConsole(path);
+                    (linkLog, parameter, filePath) = FormatPathConsole(appSettings, path);
 
                     if (string.IsNullOrEmpty(linkLog) || string.IsNullOrEmpty(parameter) || string.IsNullOrEmpty(filePath))
                         _logger.LogInformation("There is an incorrect parameter.");
@@ -148,17 +148,17 @@ namespace EfersonTesting.EfersonSilva.Domain
             }
         }
 
-        private static (string linkLog, string parameter, string filePath) FormatPathConsole(string path)
+        private static (string linkLog, string parameter, string filePath) FormatPathConsole(AppSettings appSettings, string path)
         {
             string[] vetManyPath = path.Split(" ");
 
-            string linkLog = vetManyPath[1];
+            string linkLog = vetManyPath[0];
 
             string[] vetLink = linkLog.Split("/");
 
             string parameter = vetLink.Last();
 
-            string filePath = vetManyPath[2].Replace("/", "\\");
+            string filePath = appSettings.FilePath.Replace("/", "\\");
 
             return (linkLog, parameter, filePath);
         }
@@ -180,7 +180,7 @@ namespace EfersonTesting.EfersonSilva.Domain
                 {
                     text = new StringBuilder();
                     text.AppendLine("#Version: 1.0");
-                    text.AppendLine("#Date: " + DateTime.Now.ToString("MM/dd/yyyy HH:mm:ss", new CultureInfo("pt-BR")));
+                    text.AppendLine("#Date: " + DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss", new CultureInfo("pt-BR")));
                     text.AppendLine("#Fields: provider http-method status-code uri-path time-taken response-size cache-status");
 
                     File.WriteAllText(filePath, text.ToString(), Encoding.UTF8);
@@ -189,6 +189,9 @@ namespace EfersonTesting.EfersonSilva.Domain
                 text = new StringBuilder();
                 foreach (var line in listCdn)
                 {
+                    if (line.CacheStatus == "INVALIDATE")
+                        line.CacheStatus = "REFRESH_HIT";
+
                     text.AppendLine($"\"{line.Provider}\" {line.HttpMethod} {line.StatusCode} {line.UriPath} {line.TimeTaken} {line.ResponseSize} {line.CacheStatus}");
                 }
 
